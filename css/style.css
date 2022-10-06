@@ -1,0 +1,91 @@
+@font-face {
+  font-family: "Roboto";
+  src: local("roboto-regular-webfont"),
+  url("../fonts/roboto-regular-webfont.woff2") format("woff2"),
+  url("../fonts/roboto-regular-webfont.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: local("roboto-bold-webfont"),
+  url("../fonts/roboto-bold-webfont.woff2") format("woff2"),
+  url("../fonts/roboto-bold-webfont.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+/* global */
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+::after,
+::before {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+p,
+a,
+h1,
+h2,
+h3 {
+  margin: 0;
+  padding: 0;
+}
+
+.list-reset {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.btn-reset {
+  padding: 0;
+  border: 0;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+/* endglobal */
+
+.header-container {
+  background-color: #3F2AFF;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+
+  padding: 30px;
+}
+
+.header__menu {
+  display: flex;
+}
+
+.header__item {
+  margin-right: 56px;
+
+  color: #FFF;
+}
